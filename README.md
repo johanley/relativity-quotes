@@ -22,4 +22,3 @@ This repeats data (author name, title). One quote per line.
 Final output as a printable PDF.
 The PDF can be printed in book form.
 I have printed it using lulu.com.
-The link is: https://www.lulu.com/account/projects/ryeejp
