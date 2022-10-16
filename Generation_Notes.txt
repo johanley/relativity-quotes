@@ -1,0 +1,25 @@
+
+The idea is to make temporary changes to other projects.
+
+Generating the main text:
+-------------------------
+Project: quotations
+- ParseAndGenerate.java: location of the quotes.txt file
+- GeneratedPdf.java: title
+- GeneratedPdf.java: font size large title (reduce from 30 to 20)
+- GeneratedPdf.java: last numbered page (changes according to the amount of text)
+
+
+Generating the cover:
+-----------------------
+Project: books-anne-of-green-gables
+GenerateCover.java
+ - OUTPUT_FILE, just hard code it to a temp location
+ - SPINE_WIDTH, varies with the number of pages (1.375 changes to 0.75)
+ - WIDTH may need adjustment as well (14.06 changes to 13.50)
+   You will see error messages returned by lulu.com, if a wrong-sized cover is uploaded!
+Settings.java
+ - TITLE
+ - AUTHOR_FULL_NAME
+ - AUTHOR_LAST_NAME
+  
