@@ -1,6 +1,10 @@
-Quotations on the subject of relativity (special and general).
+Quotations from textbooks on the subject of relativity (special and general).
 
 I have scanned about 40 textbooks, looking for items of interest to me.
+
+This was an interesting and useful exercise. 
+I learned some important points that I wasn't aware of before.
+The moral is to never rely on a single textbook.
 
 # Source file: quotes.txt 
 Structured data file, UTF-8 encoding, typed in manually.
@@ -19,6 +23,7 @@ However, I do include the output of the code, as derived files in the 'generated
 This repeats data (author name, title). One quote per line.
 
 ## quotes_book.pdf
-Final output as a printable PDF.
+Final output as a printable PDF. 
+The quotations are in alphabetical order by the author's last name.
 The PDF can be printed in book form.
 I have printed it using lulu.com.
