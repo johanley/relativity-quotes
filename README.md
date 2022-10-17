@@ -5,6 +5,13 @@ I have scanned about 40 textbooks, looking for items of interest to me.
 This was an interesting and useful exercise. 
 I learned some important points that I wasn't aware of before.
 The moral is to never rely on a single textbook.
+The best technique is likely to study one good book closely, and then scan many other books looking for different points of view.
+
+An important point is that the scanning can actually be done rather quickly.
+There's a natural filter that can be used to your advantage.
+In physics books, most of the content is in equations. 
+But most points of interest are discussed in extensive written comments, outside of the equations.
+So the technique is to simply focus on the (relatively sparse) blocks of non-trivial text, instead of the equations.  
 
 # Source file: quotes.txt 
 Structured data file, UTF-8 encoding, typed in manually.
