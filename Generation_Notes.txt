@@ -1,5 +1,6 @@
+(These notes are for my own personal use.)
 
-The idea is to make temporary changes to other projects.
+The idea is to make temporary changes to other projects (unpublished on github).
 
 Generating the main text:
 -------------------------
