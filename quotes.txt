@@ -3176,3 +3176,237 @@ Capek, M. {
     in the very structure of human imagination that it is almost impossible to get rid of it.
   }
 }
+
+Kenyon, I. R. {
+  General Relativity (1990) {
+    Gravitational waves are simply the vibration of space-time itself.
+    
+    A number of experiences familiar to modern man indicate that there is a close resemblance between the gravitational force and 
+    the effects of acceleration. High-speed centrifuges generate large inertial forces which are used to separate materials from 
+    liquid suspensions that would sediment only slowly, if at all, under gravity. Pilots of jet aircraft making tight turns feel 
+    forces that are labelled 'g forces', and in the realm of space exploration proposals exist to build giant wheels that would
+    rotate to provide an artificial gravity. These are all examples of centrifugal acceleration. Linear acceleration is less 
+    readily sustained and has fewer familiar applications. However, the parallel between a linear acceleration and gravitation 
+    is conceptually simpler. Einstein realized that this parallel is a principle of nature, the equivalence principle, 
+    which states that a region of uniform gravitational field and a uniformly accelerating frame are equivalent. That is to say,
+    there is no way to distinguish between them provided that measurements do not extend beyond the region of uniformity.
+    
+    ...the motion of a neutral test body released at a given point in space-time is independent of its composition. 
+    This statement is known as the em(weak equivalence principle).
+    
+    Einstein generalized the [weak equivalence principle] to cover both electromagnetic and mechanical experiments....
+    In a nutshell, physics is the same in all freely falling frames.
+    
+    For most purposes we can ignore the distinction and include the pseudo-Riemannian spaces with the Riemannian spaces.
+    
+    # Fig 6.4 is a nice summary, on page 70, of when Christoffel symbols and/or R vanishes.
+    
+    # good diagram 5.1 on page 51, for contravariant versus covariant.
+    
+    With rectangular Cartesian coordinates in Euclidean space the distinction between vector and covector components disappears, 
+    which explains why covector components are not usually used in Newtonian mechanics.
+    
+    # p79 good summary of the physical meaning of the energy-momentum tensor
+    
+    T-mu-nu [the energy-momentum tensor] is the flow of the mu-th component of the four-momentum along the nu-direction.
+    
+    It is well known that the pressure inside a star resists the gravitational collapse, and yet it now looks as if pressure can, by 
+    virtue of contributing to a component of the stress-energy tensor, hasten gravitational collapse. This is indeed the case, and pressure
+    contributes to the contraction of sufficiently massive stars to black holes.
+    
+    Curiously, the cosmological constant is once again in vogue. Quantum theory has taught us that the vacuum is not a featureless void 
+    but is continuously disturbed by the particle-anti-particle pair creation and annihilation and that this endows the vacuum with energy. 
+    A non-zero cosmological constant no longer seems at all unreasonable.
+  }
+}
+
+Carroll, Sean {
+  Spacetime and Geometry (2004){
+    General relativity is the most beautiful physical theory ever invented.
+    
+    The essential idea is perfectly straightforward: while most forces of nature are represented by fields defined on spacetime (such
+    as the electromagnetic field, or the short-range fields characteristic of subnuclear forces), gravity is inherent in 
+    spacetime itself. In particular, what we experience as "gravity" is a manifestation of the curvature of spacetime.
+    
+    The interval is defined to be delta-s^2, not the square root of this quantity.
+    
+    The notion of em(acceleration) in special relativity has a bad reputation, for no good reason...In particular, there is no truth 
+    to the rumor that SR is unable to deal with accelerated trajectories, and general relativity must be invoked.
+    
+    Such a metric, in which all of the eigenvalues are positive, is called Euclidean, while those...which feature a single minus sign 
+    are called Lorentzian.
+    
+    ...there is no such thing as a cross product between four-vectors.
+    
+    This is why it is rarely necessary to write the basis vectors and dual vectors explicitly; the components do all of the work.
+    
+    A remarkable property of the above tensors - the metric, the inverse metric, the Kronecker delta, and the Levi-Civita symbol - is that,
+    even though they all transform according to the tensor transformation law, their components remain unchanged in any inertial 
+    coordinate system in flat spacetime. In fact, these are the only tensors with this property.
+    
+    The metric, as a (0,2) tensor, is a machine that acts on two vectors (or two copies of the same vector) to produce a number.
+    
+    It turns out to be much more convenient to take this as the mass once and for all, rather than thinking of mass depending on velocity.
+    
+    As mentioned at the beginning of this section, general relativity itself is a classical field theory, in which the dynamical field is 
+    the metric tensor. It is nevertheless fair to think of GR as somehow different; for the most part other classical field theories rely on 
+    the existence of a pre-existing geometry, whereas in GR the geometry is determined by the equations of motion.
+    
+    A general definition of [the energy-momentum tensor] T-mu-nu is "the flux of four-momentum p-mu across a surface of constant x-nu."
+    
+    Gravity is special. In the context of general relativity, we ascribe this specialness to the fact that the dynamical field 
+    giving rise to gravitation is the metric tensor describing the curvature of spacetime itself, rather than some additional 
+    field propagating through spacetime; this was Einstein's profound insight. The physical principle that led him to this idea 
+    was the universality of the gravitational interaction, as formalized by the Principle of Equivalence.
+    
+    The [Weak Equivalence Principle] states that the inertial mass and gravitational mass of any object are equal.
+    
+    This suggests an equivalent formulation of the WEP: there exists a preferred class of trajectories through spacetime, known as 
+    inertial (or "freely-falling") trajectories, on which unaccelerated particles travel - where unaccelerated means 
+    "subject only to gravity".
+    
+    The WEP can therefore be stated as follows: The motion of freely-falling particles are the same in a gravitational field and a 
+    uniformly accelerated frame, in small enough regions of spacetime.
+    
+    This reasonable extrapolation became what is now known as the Einstein Equivalence Principle, or EEP: In small enough regions of 
+    spacetime, the [nongravitational] laws of physics reduce to those of special relativity; it is impossible to detect the existence of a gravitational
+    field by means of local experiments.
+    
+    Then the Strong Equivalence Principle (SEP) is defined to include all of the laws of physics, gravitational and otherwise.
+    
+    The solution is to retain the notion of inertial frames, but to discard the hope that they can be uniquely extended throughout 
+    space and time. Instead we can define locally inertial frames, those that follow the motion of individual freely falling particles 
+    in small enough regions of spacetime. (Every time we say "small enough regions", purists should imagine a limiting procedure in which 
+    we take the appropriate spacetime volume to zero.)
+    
+    C-infinity maps are sometimes called em(smooth).
+    
+    Roughly speaking, an open set is the interior of some (n-1)-dimensional closed surface (or the union of several such interiors).
+    
+    Most manifolds cannot be covered with just one chart.
+    
+    Just as the partial derivatives along coordinate axes provide a natural basis for the tangent space, the gradients of the coordinate
+    functions x-mu provide a natural basis for the cotangent space.
+    
+    Unfortunately, the partial derivative of a tensor is not, in general, a new tensor. The gradient, which is the partial derivative of a 
+    scalar, is an honest (0,1) tensor, as we have seen. But the partial derivative of higher-rank tensors is not tensorial....
+    
+    The metric we use in general relativity cannot be used to define a topology, but it will have other uses.
+    
+    In fact our notation "ds^2" does not refer to the differential of anything, or the square of anything; it's just convenient 
+    shorthand for the metric tensor, a multilinear map from two vectors to the real numbers.
+    
+    ...it turns out that at any point p there exists a coordinate system in which [the g's] take their canonical form and the first 
+    derivatives [of the g's] all vanish...Such coordinates are known as locally inertial coordinates...
+    
+    The usual trick is to take a question of physical interest, answer it in the context of locally inertial coordinates, and then 
+    express that answer in a coordinate-independent form.
+    
+    All the ways in which curvature manifests itself rely on something called a "connection", which gives us a way of relating vectors in the
+    tangent spaces of nearby points.
+    
+    ...a connection that is symmetric in its lower indices is known as "torsion-free".
+    
+    Our claim is therefore that there is exactly one torsion-free connection on a given manifold that is compatible with some given metric on 
+    that manifold.
+    
+    The last thing we need to mention is that converting partial derivatives into covariant derivatives is not always necessary in order 
+    to construct well-defined tensors; in particular, the exterior derivative and the vector-field commutator are both well-defined in terms
+    of partials, essentially because both involve an anti-symmetrization that cancels the nontensorial piece of the partial derivative
+    transformation law.
+    
+    ...we must simply learn to live with the fact that two vectors can only be compared in a natural way if they are elements of the same
+    tangent space. For example, two particles passing by each other have a well-defined relative velocity, which cannot be greater than 
+    the speed of light. But two particles at different points on a curved manifold do not have any well-defined notion of relative 
+    velocity - the concept simply makes no sense.
+    
+    Since this phenomenon bears such a close resemblance to the conventional Doppler effect due to relative motion, we are very tempted to 
+    say that the galaxies are "receding away from us" at a speed defined by their redshift. At a rigorous level this is nonsense, what 
+    Wittgenstein would call a "grammatical mistake" - the galaxies are not receding, since the notion of their velocity with respect to
+    us is not well-defined. What is actually happening is that the metric of spacetime between us and the galaxies has changed (the 
+    universe has expanded) along the path of the photon from here to there, leading to an increase in the wavelength of the light.
+    
+    ...the demand that the tangent vector be parallel-transported actually constrains the parameterization of the curve, specifically to one
+    related to the proper time...
+    
+    Often the case is that between two points on a manifold there is more than one geodesic.
+    
+    Geodesics provide a convenient way of mapping the tangent space em(Tp) of a point em(p) to a region of the manifeld that contains em(p),
+    called the exponential map. This map in turn defines a set of coordinates for this region that are automatically the locally inertial 
+    coordinates...
+    
+    ...the best way we have of defining a singularity is as a place where geodesics appear to "end", after we remove trivial cases in 
+    which a part of the manifold is artificially excluded by hand.
+    
+    ...the cosmological redshift is em(not) a Doppler shift...
+    
+    ...a convention needs to be chosen for the ordering of the indices [of the Riemann tensor]. There is no agreement at all on what this 
+    convention should be, so be careful.
+    
+    We therefore refer to an n-dimensional manifold with (n/2)(n+1) Killing vectors as a maximally symmetric space. 
+    [For n=4, the number is 10 Killing vectors.] 
+    
+    It follows that we should be able to reconstruct the entire Riemann tensor of such a space from the Ricci scalar R...
+    
+    Locally, then (ignoring questions of global topology), a maximally symmetric space of given dimension and signature is fully 
+    specified by R. The basic classification of such spaces is simply whether R is positive, zero, or negative, since the magnitude 
+    of R represents an overall scaling of the size of the space.
+    
+    We know that the maximally symmetric spacetime with R=0 is simply Minkowski space. The positively curved maximally symmetric spacetime 
+    is called de Sitter space, while that with negative curvature is imaginatively labeled anti-de Sitter space. 
+      
+    When people say that GR is diffeomorphism invariant, more likely than not they have one of two (closely related) concepts in mind: 
+    the theory is free of "prior geometry", and there is no em(preferred) coordinate system for spacetime.
+    
+    Furthermore, the energy-momentum tensor will generally involve the metric as well.
+    
+    The nonlinearity if general relativity is worth a remark...In GR the gravitational field couples to itself...The nonlinearity of 
+    Einstein's equation is a reflection of the back-reaction of gravity on itself.
+    
+    There is nothing unique about [the nonlinearity] of gravity; it is shared by most gauge theories, such as quantum chromodynamics, the 
+    theory of the strong interactions. Electromagnetism is actually the exception...
+    
+    A characteristic feature of general relativity is that the source for the gravitational field is the entire energy-momentum tensor.
+    In nongravitational physics, only em(changes) in energy from one state to another are measurable; the normalization of the energy 
+    is arbitrary...This behavior opens up the possibility of vacuum energy: an energy density characteristic of empty space.
+    
+    The terms "cosmological constant" and "vacuum energy" are essentially interchangeable.
+    
+    The vacuum energy is ultimately a constant of nature in its own right.
+    
+    We know that there are four Killing vectors [in the Schwarzschild spacetime]: three for the spherical symmetry, and one for time translation.
+    [conservation of angular momentum, and energy].
+    
+    The idea of a conformal diagram [Carter-Penrose diagram]...is a crucial tool for analyzing spacetimes in general relativity.
+    
+    Black hole solutions are characterized by a very small number of parameters, rather than the potentially infinite set of parameters 
+    characterizing, say, a planet.
+    
+    An event horizon is a hypersurface separating those spacetime points that are connected to infinity by a timelike path from those that 
+    are not.
+    
+    The moral of the story seems to be that typical time-dependent solutions in general relativity usually end in singularities.
+    (Or begin in them; some theorems imply the existence of cosmological singularities, such as the Big Bang.) This represents something 
+    of a problem for GR, in the sense that the theory doesn't really apply to the singularities themselves, whose existence therefore 
+    represents an incompleteness of description. The traditional attitude toward this issue is to hope that a sought-after quantum 
+    theory of gravity will somehow resolve the singularities of classical GR.
+    
+    Cosmic censorship conjecture: Naked singularities cannot form in gravitational collapse from generic, initially nonsingular 
+    states in an asymptotically flat spacetime obeying the dominant energy condition. A naked singularity is one from which signals can 
+    reach I+; that is, one that is not hidden behind an event horizon. Notice that the conjecture refers to the formation of naked 
+    singularities, not their existence; there are certainly solutions in which spacelike naked singularities exist in the past
+    (such as the Schwarzschild white hole) or timelike singularities exist for all times (such as in super-extremal 
+    charged black holes)...The requirement that the initial data be in some sense "generic" is important, as numerical experiments 
+    have shown that finely-tuned initial conditions are able to give rise to naked singularities. A precise proof of some form of the 
+    cosmic censorship conjecture remains one of the outstanding problems of classical relativity.
+    
+    The usefulness of homogeneity and isotropy is that they imply that a space is maximally symmetric. Think of isotropy as invariance under 
+    rotations, and homogeneity as invariance under translations, suitably generalized. Then homogeneity and isotropy together imply that a space 
+    has its maximum possible number of Killing vectors.
+    
+    The conformal diagram of de Sitter space will simply be a representation of the patch of the Einstein static universe to which 
+    de Sitter is conformally related.
+    
+    Thus, anti-de Sitter space is conformally related to half of the Einstein static universe.  
+  }
+}
