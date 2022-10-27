@@ -15,7 +15,7 @@
 #  
 # Occasional special symbols:
 #  pre(...) - preserve white space (poetry)
-#  em(...) - emphasis/italics
+#  em(...) - emphasis/italics; this is poorly implemented! cross-talk with regular parens
 
 Bergmann, P. {
  The Riddle of Gravitation (1968) {
@@ -50,7 +50,7 @@ Bergmann, P. {
    parallel about a small closed loop.
    
    The analogous formulation of the laws of conservation of energy (mass) and linear momentum requires introduction of the notions 
-   of energy density, energy flux density, linear momentum density [same as energy flux density], and linear momentum flux density [stress]. 
+   of energy density, energy flux density, linear momentum density [proportional to energy flux density], and linear momentum flux density [stress]. 
   }
   Introduction to the Theory of Relativity (1942){
     While Maxwell's theory merely eliminated action at a distance from the realm of electrodynamics, the Lorentz transformation equations 
@@ -153,7 +153,7 @@ Eddington, A. {
    reverses this. Extension (distance, interval) is now fundamental; and the location of the object is a computational result....
    To put the conclusion rather crudely - space is not a lot of points close together; it is a lot of distances interlocked.
    
-   When we encounter em(i) in our investigations, we must remember that it has been introduced by ou choice of measure-code, and must not 
+   When we encounter em(i) in our investigations, we must remember that it has been introduced by our choice of measure-code, and must not 
    think of it as occurring with some mystical physical significance in the external world.
    
    When the g's are not constants and the fundamental quadratic form is not reducible to [a flat metric], there is still a null-surface, 
@@ -202,15 +202,15 @@ Bohm, David {
    limits on this transformation, in the sense that an interval inside the light cone cannot be transformed into one outside the light cone,
    or on the light cone.
    
-   So a certain subtle kind of difference between space and time is preserved (in the sense of a lack of em(complete) interchangeability 
-   under transformation)....
+   So a certain subtle kind of difference between space and time is preserved, in the sense of a lack of em(complete) interchangeability 
+   under transformation....
  }
 }
 
 Landau and Lifshitz {
   The Classical Theory of Fields (1979){
     For the description of processes taking place in nature, one must have a em(system of reference). By a system of reference we 
-    understand a system of coordinates serving to indicate the position of a particle is space, as well as clocks fixed in this system 
+    understand a system of coordinates serving to indicate the position of a particle in space, as well as clocks fixed in this system 
     serving to indicate the time. [First sentence.] 
     
     Experiment shows that the so-called em(principle of relativity) is valid. According to this principle all the laws of nature are 
@@ -263,7 +263,7 @@ Landau and Lifshitz {
     gravitational fields. Any gravitational field is just a change in the metric of space-time, as determined by the quantities g-ik.
     This important fact means that the geometrical properties of space-time (its metric) are determined by physical phenomena, and are 
     not fixed properties of space and time. The theory of gravitational fields, constructed on the basis of the theory of relativity, is 
-    called the em(general theory of relativity). It was established by Einstein (and finally formulated by him in 1916), and represents 
+    called the general theory of relativity. It was established by Einstein (and finally formulated by him in 1916), and represents 
     probably the most beautiful of all existing physical theories. It was remarkable that it was developed by Einstein in a purely 
     deductive manner and only later was substantiated by astronomical observations.
     
@@ -285,11 +285,16 @@ Landau and Lifshitz {
     reference system in the general theory of relativity.
     
     In connection with the arbitrariness of the choice of reference system, the laws of nature must be written in the general theory 
-    of relativity in a form which is appropriate to any four-dimensional system of coordinates (or, as one says, in em(covariant) form).
+    of relativity in a form which is appropriate to any four-dimensional system of coordinates (or, as one says, in covariant form).
     
     Thus, generally speaking, in the general theory of relativity the concept of a definite distance between bodies loses its meaning, remaining
     valid only for infinitesimal distances. The only case where the distance can be defined also over a finite domain is that in which 
-    the g-ik do not depend on the time.... 
+    the g-ik do not depend on the time....
+    
+    Thus we arrive at the important conclusion that the requirements of relativistic invariance, as expressed by the tensor character of the 
+    quantities Tik, automatically lead to a definite connection between the energy flux and the [momentum density]: the energy flux density is equal 
+    to the [momentum density] multiplied by c-squared [typos in the text are corrected here].
+      
   }
 }
 
@@ -371,7 +376,7 @@ Taylor and Wheeler {
      # tau for times, sigma for distances; reverse sign of metric expression
      
      Principle of Extremal Aging: The path a free object takes between two events in spacetime is the path for which
-     the time lapse between events, recorded on the object's wristwatch, is an extremum. [Minimum if the wristwatch runs backwards?]
+     the time lapse between events, recorded on the object's wristwatch, is an extremum. [Some cases are a saddle point. He refers to maxima and saddle points as extremal.]
      
      Particle mass em(m) is an em(invariant), independent of reference frame....
      
@@ -538,7 +543,7 @@ Hawking and Ellis {
      The definition of a manifold given so far is very general. For most purposes one will impose two further conditions, that M is Hausdorff and that 
      M is paracompact, which will ensure reasonable local behaviour.   
      
-     Unless otherwise stated, em(all manifolds considered will be paracompact, connected C-infinite Hausdorff manifolds without boundary.)
+     Unless otherwise stated, all manifolds considered will be paracompact, connected C-infinite Hausdorff manifolds without boundary.
      It will turn out later that when we have imposed some additional structure on M (the existence of an affine connection) the requirement 
      of paracompactness will be automatically satisfied because of the other restrictions.
      
@@ -580,7 +585,7 @@ Hawking and Ellis {
      
      ...the pressure contributes to the total mass. This means that in some circumstances it can actually assist rather than prevent gravitational collapse.
      
-     [there's a second form of the field equations with only Rab = appearing on the left hand side, and with two terms in Tab and T appearing on the right.]
+     # There's a second form of the field equations with only Rab = appearing on the left hand side, and with two terms in Tab and T appearing on the right.
      
      Thus the field equations really provide only six independent differential equations for the metric [16->10->6].
      This is in fact the correct number of equations to determine the space-time, since four of the ten components of the metric can be given arbitrary 
@@ -596,7 +601,7 @@ Hawking and Ellis {
      
      Physically it would seem reasonable to suppose that there is a local thermodynamic arrow of time defined continuously at every point of space-time,
      but we shall only require that it should be possible to define continuously a division of non-spacelike vectors into two classes, which we 
-     arbitrarily label future- and past-directed. If this is the case, we shall say that space-time is em(time-orientable). In some space-times 
+     arbitrarily label future- and past-directed. If this is the case, we shall say that space-time is time-orientable. In some space-times 
      it is not possible to define such a time-orientation [e.g. de Sitter space]. If a space-time (M,g) is not time-orientable, then it has a 
      double covering space which is.
      
@@ -612,7 +617,7 @@ Hawking and Ellis {
      therefore still a space-time even though it may look rather incomplete where points have been cut out. As mentioned above, however, this 
      incompleteness can be cured by an appropriate conformal transformation which sends the cut out points to infinity.
      
-     ...one would be much more ready to believe that space-time satisfies hat e shall call the em(chronology condition): namely, that there are no closed
+     ...one would be much more ready to believe that space-time satisfies what we shall call the chronology condition: namely, that there are no closed
      timelike curves. One must however bear in mind the possibility that there might be points (maybe where the density or curvature was very high)
      of space-time at which this condition does not hold. The set of all such points will be called the em(chronology violating) set of M...
      
@@ -622,7 +627,7 @@ Hawking and Ellis {
      
      We shall say that the em(causality condition) holds if there are no closed non-spacelike curves.
      
-     The em(strong causality condition) is said to hold at em(p) if every neighborhood of em(p) p contains a neighborhood of em(p) which no 
+     The em(strong causality condition) is said to hold at em(p) if every neighborhood of em(p) contains a neighborhood of em(p) which no 
      non-spacelike curve intersects more than once. 
      
      A set N is said to be globally hyperbolic if the strong causality assumption holds on N and if for any two points p,q in N, 
@@ -661,7 +666,7 @@ Hawking and Ellis {
      even more objectionable feature than infinite curvature and so it seems appropriate to regard such a space as singular....one should probably 
      also regard a null geodesically incomplete space-time as singular....    
      As nothing moves on spacelike curves, the significance of spacelike geodesic incompleteness is not so clear.  
-     We shall therefore adopt the view that em(timelike and null geodesic completeness are minimum condititons for space-time to be considered 
+     We shall therefore adopt the view that em(timelike and null geodesic completeness are minimum conditions for space-time to be considered 
      singularity-free). Therefore if a space-time is timelike or null geodesically complete, we shall say that it has a singularity.
      
      However, the class of timelike and/or null incomplete space-times does not include all those one might wish to consider as singular in some sense.
@@ -675,14 +680,14 @@ Hawking and Ellis {
      However since we have excluded singular points from our definition of space-time, difficulty arises in defining both 'near' and 
      'unboundedly large'.
      
-     Such results, although suggestive, do not necessarily have any physical significance because they depend on teh symmetry being exact 
+     Such results, although suggestive, do not necessarily have any physical significance because they depend on the symmetry being exact 
      and clearly in any physical situation this will not be the case. It was therefore suggested by a number of authors that singularities 
      were simply the result of symmetries and that they would not occur in general solutions.
      
      What is needed is a prescription for attaching some sort of boundary [del] to M which is uniquely determined by measurements at non-singular 
      points, i.e. by the structure of (M,g).
      
-     ...we interpret the preceding theorems as indicating not that geodesic incompleteness necessarily occurs, but the General Relativity breaks 
+     ...we interpret the preceding theorems as indicating not that geodesic incompleteness necessarily occurs, but that General Relativity breaks 
      down in very strong gravitational fields.
      
      In this chapter we consider the effect of space-time curvature on families of timelike and null curves. These could represent flow lines of 
@@ -691,7 +696,7 @@ Hawking and Ellis {
      In [section] 4.3 we discuss the general inequalities on the energy-momentum tensor which imply that the gravitational effect of matter is 
      always to tend to cause convergence of timelike and null curves.
      
-     However, in general, space-time will not have any Killing vectors. Thus one will not have any special frame agianst which to measure acceleration;
+     However, in general, space-time will not have any Killing vectors. Thus one will not have any special frame against which to measure acceleration;
      the best one can do is to take two bodies close together and measure their relative acceleration. This will enable one to measure the gradient 
      of the gravitational field. If one thinks of the metric as being analogous to the Newtonian potential, the gradient of the Newtonian field would 
      correspond to the second derivative of the metric. These are described by the Riemann tensor.
@@ -718,9 +723,9 @@ Hawking and Ellis {
      
      Since any Cauchy surface intersects all timelike and null geodesics...
      
-     We shall mean an em(exact solution) of Einstein's field equations, a space-time (M,g) in which the field equations are 
+     We shall mean by an exact solution of Einstein's field equations, a space-time (M,g) in which the field equations are 
      satisfied with Tab the energy-momentum tensor of some specified form of matter which obeys postulate (a) ('local causality') of 
-     chapter 3, ando one of the energy conditions of chapter [section] 4.3. In particular, one may look for exact solutions for 
+     chapter 3, and one of the energy conditions of chapter [section] 4.3. In particular, one may look for exact solutions for 
      empty space..., for an electromagnetic field..., for a perfect fluid..., or for a space containing an electromagnetic 
      field and a perfect fluid. Because of the complexity of the field equations, one cannot find exact solutions except in spaces of rather 
      high symmetry. Exact solutions are also idealized in that any region of space-time is likely to contain many forms of matter, 
@@ -744,7 +749,7 @@ Hawking and Ellis {
      However the point is that even if the star is not exactly spherically symmetric, a closed trapped surface will still occur providing the departures
      from spherical symmetry are not too great. This follows from the stability of the Cauchy development proved in [section] 7.5....
      
-     Another way of seeing this is that if L=m-squared and anguluar momentum is conserved during the collapse, then the velocity of the surface of the star
+     Another way of seeing this is that if L=m^2 and anguluar momentum is conserved during the collapse, then the velocity of the surface of the star
      would be about the velocity of light when the star was at its Schwarzschild radius. Now many stars have an angular momentum greater than the 
      square of their mass (for the sun, L~m^2). However it seems reasonable to expect some loss of angular momentum during the collapse 
      because of braking by magnetic fields and because of gravitational radiation. The situation is therefore that in some stars, and probably most,
@@ -755,7 +760,7 @@ Hawking and Ellis {
      This example also shows that the conditions when a body passes through its Schwarzschild radius need not be in any way extreme.
      
      The most striking feature of spherically symmetric collapse is that the singularity occurs within the region r<2m, from which no light can 
-     escape to infinity. This if one remained outside r=2m one would never see the singularity predicted by theorem 2. Further the breakdown of 
+     escape to infinity. Thus if one remained outside r=2m one would never see the singularity predicted by theorem 2. Further the breakdown of 
      physical theory which occurs at the singularity cannot affect one's ability to predict the future in the asymptotically flat region of space-time.
      
      By [section] 6.3 the event horizon is an achronal boundary which is generated by null geodesic segments which may have past endpoints but which can have 
@@ -766,7 +771,7 @@ Hawking and Ellis {
      Once the surface of the star has passed inside the event horizon, the metric of the exterior region is that of the Schwarzschild solution, 
      and is unaffected by the fate of the star. 
      
-     That is, a partial Cauchy surface is as spacelike hypersurface which no non-spacelike curve intersects more than once.
+     That is, a partial Cauchy surface is a spacelike hypersurface which no non-spacelike curve intersects more than once.
      
      That is, a Cauchy surface is a spacelike hypersurface which every non-spacelike curve intersects exactly once.
      
@@ -795,12 +800,12 @@ Penrose, Roger {
      In certain respects, the null cones are indeed more fundamental than the metric.
      
      Many workers in the field prefer to concentrate on the (+++-)-signature pseudometric ... since this is convenient when considering 
-     spatial geometry, the quantity represented above as 'dl^2' being positive for em(spacelike) displacements.... But the quantity 
-     'ds^2' defined by the (+---)-signature ... is more directly physical, because it is positive along the em(timelike) curves that are 
-     the allowable worldlines of massive particles, the integral of ds being interpretable as the actual em(physical time) measured by an 
+     spatial geometry, the quantity represented above as 'dl^2' being positive for spacelike displacements.... But the quantity 
+     'ds^2' defined by the (+---)-signature ... is more directly physical, because it is positive along the timelike curves that are 
+     the allowable worldlines of massive particles, the integral of ds being interpretable as the actual physical time measured by an 
      ideal clock with this as its world line.
      
-     Groups that possess no non-trivial normal subgroups at all are called em(simple groups). The group SO(3) is an example of a simple group.
+     Groups that possess no non-trivial normal subgroups at all are called simple groups. The group SO(3) is an example of a simple group.
      Simple groups are, in a clear sense, the basic building blocks of group theory.
       
      It is thus an important achievement of the 19th and 20th centuries in mathematics that all the finite groups and all the continuous 
@@ -809,7 +814,7 @@ Penrose, Roger {
      Many of the groups that feature in particle physics are in fact product groups of simple groups (or elementary modifications of such).
      
      Those linear transformations which map the entire vector space down to a region (subspace) of smaller dimension within that space are 
-     called em(singular).
+     called singular.
      
      Any (adequate) system of coordinates will do. They need not be 'Cartesian' or of any other standard kind. This is the beauty of the 
      Lagrangian (and also Hamiltonian) approach. The choice of coordinates is governed merely by convenience.
@@ -818,14 +823,14 @@ Penrose, Roger {
      In the case of relativistic quantum theory, however, it is the Lagrangian framework that has generally been found to provide the 
      more natural leaping-off point.
      
-     To exemplify the limitations of Nother's theorem in the case of gravitational theory, it should be pointed out that a significant 
+     To exemplify the limitations of Noether's theorem in the case of gravitational theory, it should be pointed out that a significant 
      question mark still hangs over the issue of angular momentum in general relativity, even in the case of asymptotically flat spacetimes.
      
      Lagrangians for fields are undoubtedly extremely useful as mathematical devices, and they enable us to write down large numbers of suggestions 
      for physical theories. But I remain uneasy about relying on them too strongly in our searches for improved fundamental physical 
      theories.
      
-     em(Reductio ad absurdum), which Euclid loved so much, is one of a mathematician's finest weapons (G. H. Hardy).
+     Reductio ad absurdum, which Euclid loved so much, is one of a mathematician's finest weapons (quoting G. H. Hardy).
      
      It would, no doubt, have come as a great surprise to all those who had voiced their suspicion of complex numbers to find that,
      according to the physics of the latter three-quarters of the 20th century, the laws governing the behaviour of the world, at the 
@@ -1106,8 +1111,8 @@ Wald, Robert {
       of the spacetime geometry from the flat geometry of special relativity.
       
       The laws of physics in general relativity are governed by two basic principles: (1) the principle of general covariance... which states 
-      that the metric em(g) and quantities derivable from it are the only spacetime quantities that can appear in the equations of physics; 
-      (2) the requirement that equations must reduce to the equations satisfied in special relativity in the case where em(g) is flat. 
+      that the metric g and quantities derivable from it are the only spacetime quantities that can appear in the equations of physics; 
+      (2) the requirement that equations must reduce to the equations satisfied in special relativity in the case where g is flat. 
       As mentioned previously, the first principle is imprecise because the term "spacetime quantity" is not well defined. As will be 
       illustrated below, these two principles alone do not uniquely determine the laws of physics in general relativity. However, together
       with simplicity and aesthetics, they serve as general guides which, in many cases, lead directly to natural candidates for physical laws.
@@ -1167,14 +1172,14 @@ Wald, Robert {
       between these laws, highlighted by the analogy between the law of area increase for black holes and the law of entropy increase for 
       thermodynamic systems.
       
-      Cosmic Censorship Conjecture (em(version 1; physical formulation)). The complete gravitational collapse of a body always results in 
+      Cosmic Censorship Conjecture (version 1; physical formulation). The complete gravitational collapse of a body always results in 
       a black hole rather than a naked singularity; i.e., all singularities of gravitational collapse are "hidden" within black holes, where 
       they cannot be "seen" by distant observers.
       
       The issue of whether the cosmic censorship hypothesis is correct remains the key unresolved issue in the theory of gravitational collapse.
       The physical relevance of black holes depends in large measure on the validity of this conjecture.
       
-      Cosmic Censorship Conjecture (em(version 2; physical formulation)). All physically reasonable spacetimes are globally hyperbolic, 
+      Cosmic Censorship Conjecture (version 2; physical formulation). All physically reasonable spacetimes are globally hyperbolic, 
       i.e., apart from a possible initial singularity (such as the "big bang" singularity) no singularity is ever "visible" to any 
       observer.
       
@@ -1292,6 +1297,7 @@ Schwarzschild, Karl {
     walk in the land of your ideas.
   }
 }
+
 Way and Nussbaumer {
   Letter to Physics Today (2011) {
     It is widely held that in 1929 Edwin Hubble discovered the expanding universe and that his discovery was based on his extended 
@@ -1299,7 +1305,8 @@ Way and Nussbaumer {
     being promoted today. Hubble himself never came out in favor of an expanding universe; on the contrary, he doubted it to the end of 
     his days.  
   }
- }
+}
+ 
 Synge, J. L. {
  Talking About Relativity (1970) {
    ... of all forms of communication, [communication of scientific matters] is the most exciting when it succeeds, and the most depressing 
@@ -1339,7 +1346,7 @@ Synge, J. L. {
    
    But a curious thing happened. In my first draft of these chapter headings, I put em(a surface) in the earlier heading, but 
    em(space-time) without the indefinite article in this one, and I began to wonder why I did that. It is worth talking about. 
-   Why do I now insert em(a) in this heading?... I was confusing the R-world and the M2-world (Pygmalion syndrome!).
+   Why do I now insert em(a) in this heading?
    
    What we seem to be saying is this: a very small part of a surface may be regarded as a plane... It is clear that [this] calls 
    for some caution. It is sometimes stated thus: a surface is elementarily flat. But this is nonsense, because, no matter how we 
@@ -1359,15 +1366,71 @@ Synge, J. L. {
    # page 55: he uses 4 clocks for the 4 space-time coords; he leans on proper-time first, not coordinate-time      
    # page 125: curvature from a small triangle: (sum of the three angles - 2pi) / (area of the triangle)  
    # page 170, 171: good diagrams
+   
   }
-  Relativity: The General Theory (1971) {
-   I have never been able to understand this principle... Does it mean that the effects of a gravitational field are indistinguishable 
-   from the effects of an observer's acceleration? If so, it is false. In Einstein's theory, either there is a gravitational field or 
-   there is none, according as the Riemann tensor does or does not vanish. This is an absolute property; it has nothing to do with 
-   an observer's worldline... The Principle of Equivalence performed the essential office of midwife at the birth of general 
-   relativity... I suggest that the midwife be now buried with appropriate honours and the facts of absolute spacetime be faced. 
+  Relativity: The Special Theory (1955) {
+    To understand a subject, one must tear it apart and reconstruct it in a form intellectually satisfying to oneself, and that (in 
+    view of the differences between individual minds) is likely to be different from the original form.
+    
+    Axioms, as we now realise, are not the self-evident truths they were long supposed to be, but rather the rules of a game, the 
+    pieces of which are elements or concepts which remain and must ever remain undefined because there is nothing in terms of 
+    which to define them.
+    
+    Let us now get to work. We start with a tabula rasa, a clean sheet, a mind in a state of intellectual nudity.
+    
+    For my own part (and this is a matter involving one's personal mode of thought) relativity without space-time diagrams -relativity 
+    embedded in formulae which are to be interpreted for physics solely in terms of modified Newtonian imagery - such relativity is 
+    as dull and confusing as an attempt to contemplate the five regular solids without using three-dimensional spatial intuition.
+    Intuition about four-dimensional space-time is difficult and sometimes deceptive on account of false Euclidean analogies.
+    
+    These transformations are basic in the special theory of relativity, which might almost be called "the theory of the Lorentz transformations."
+    
+    The first approach (axes fixed and events in space-time changed under the transformation) has been used extensively by E. Cartan and 
+    his school. The second approach (events fixed and coordinates changed) is that of the Princeton school of tensor calculus (Eisenhart 
+    and Veblen). 
+    
+    The results we are going to establish seem very queer to most people at first sight. That is because it is so hard for us, reared on the
+    absolute time of Newton, to break away from that concept and recognise (as we must in relativity) that 
+    there is no absolute simultaneity.
+    
+    ...on the whole [a space-time diagram's] chief function is as a source of suggestion and a rough guide to precise formal calculations.
   }
- }
+  Relativity: The General Theory (1960){
+    But it seems to me that the spirit of this book is best described by the word em(irony), used the sense of ... Socrates, and that sense 
+    is not easy to explain.... The lust for calculation must be tempered by periods of inaction, in which the mechanism is completely 
+    unscrewed and then put together again.... It would perhaps seem that irony of this sort belongs to evaluation rather than to 
+    creation, but in the whole history of science there is no greater example of irony than when Einstein said he did not know what 
+    absolute time was, a thing which everyone knew.
+
+    I have never been able to understand this principle... Does it mean that the effects of a gravitational field are indistinguishable 
+    from the effects of an observer's acceleration? If so, it is false. In Einstein's theory, either there is a gravitational field or 
+    there is none, according as the Riemann tensor does or does not vanish. This is an absolute property; it has nothing to do with 
+    an observer's worldline... The Principle of Equivalence performed the essential office of midwife at the birth of general 
+    relativity... I suggest that the midwife be now buried with appropriate honours and the facts of absolute spacetime be faced. 
+    
+    To the ironical mind there is little distinction between the mundane and the exalted, and that is no doubt why Socrates had to drink 
+    the hemlock cup.
+    
+    It is to support Minkowski's way of looking at relativity that I find myself pursuing the hard path of the missionary. When, in a 
+    relativistic discussion, I try to make things clearer by a space-time diagram, the other participants look at it with polite 
+    detachment and, after a pause of embarrassment as if some childish indecency has been exhibited, resume the debate on their own terms.
+    Perphaps they speak of the Principle of Equivalence. If so, it is my turn to have a blank mind, for I have never been able to 
+    understand this Principle....Does it mean that the effects of a gravitational field are indistinguishable from the effects of an 
+    observer's acceleration? If so, it is false. In Einstein's theory, either there is a gravitational field or there is none, according 
+    as the Riemann tensor does or does not vanish. This is an absolute property; it has nothing to do with any observer's world-line....The 
+    Principle of Equivalence performed the essential office of midwife at the birth of general relativity, but, as Einstein remarked, the 
+    infant would never have got beyond its long-clothes had it not been for Minkowski's concept. I suggest that the midwife be now buried
+    with appropriate honours and the facts of absolute space-time faced.
+    
+    In some respects it is unimportant that the metric form of space-time is indefinite. The fact does not obtrude itself in calculating
+    the Riemann tensor, for example. But in other respects it is fundamental, and it is most unwise to mislead students of relativity by 
+    writing down, as a definition of the metric of flat space-time, an equation [using ds-squared]. This is an undigested heritage from 
+    positive-definite days. [These expressions imply that] ds is real for some displacements and imaginary for others. No serious worker 
+    in relativity will be confused by this, for he recognizes [such expressions for ds-squared] as a sort of physicist's slang. But why
+    perpetuate such nonsense? What we are concerned with is a quadratic form [phi, not ds-squared]... and [we take the absolute value
+    of phi before taking the square root], always real. 
+  }
+}
  
 Ohanian and Ruffini {
    Gravitation and Spacetime (1994){
@@ -1392,7 +1455,7 @@ Ohanian and Ruffini {
      
      A more familiar graphical representation of gravitational fields uses the lines of force of the ordinary gravitational force, rather 
      than the tidal force. This is, of course, very useful to an outside observer who wishes to study the motion of a spacecraft, or whatever, 
-     through the field. But this representation fails to describe whet happens locally. If we want a description of what the astronauts 
+     through the field. But this representation fails to describe what happens locally. If we want a description of what the astronauts 
      experience inside their spacecraft, then the picture of tidal forces is much more relevant than that of ordinary force.
      
      We can therefore use the angular acceleration to detect the tidal force. If the [non-spherical] body is originally spinning, then the 
@@ -1426,7 +1489,7 @@ Ohanian and Ruffini {
      a space that can be covered by coordinate patches with real numbers as coordinates is called a em(manifold). Thus, spacetime is 
      a four-dimensional manifold.
      
-     Unfortunately, some books follow the abominable custom of introducing a factor of em(i) inte the time component of four-vectors.
+     Unfortunately, some books follow the abominable custom of introducing a factor of em(i) into the time component of four-vectors.
      This simplifies the notation somewhat, because it eliminates the the metric tensor from all equations; but since the metric is 
      precisely the most important feature of special relativity it makes little sense to pretend that it does not exist.
      
@@ -1527,7 +1590,7 @@ Ohanian and Ruffini {
      three angles between the stars as seen from the given point. For the time coordinate we can adopt the angle between, say, the red 
      star and a fourth star (yellow) which is in motion with respect to red, white, and blue. Note that it is not really necessary that 
      the red, white, and blue stars be fixed; even if they are in motion, the coordinates will be well defined.... We might call the 
-     numbers obtained in this construction em(astrogator coordinates)....
+     numbers obtained in this construction astrogator coordinates....
      
      Note that em(x is not a vector) with respect to general coordinate transformations...
      
@@ -1597,7 +1660,7 @@ Ohanian and Ruffini {
      This is a global (or nonlocal) property because in order to test it, we must examine the propagation of light signals and other 
      signals and check what happens to them in the long run.
      
-     Such a hovering light signal on the horizon of a black hole should be confused with a signal in a circular orbit around the black
+     Such a hovering light signal on the horizon of a black hole should not be confused with a signal in a circular orbit around the black
      hole; the hovering signal has no circular motion, and it is completely stationary.
      
      For the case of the Schwarzschild geometry, the coordinates that make things easy are the Kruskal coordinates....
@@ -1643,7 +1706,7 @@ Ohanian and Ruffini {
      accretion by a Kerr black hole can convert up to 42%. This is to be compared with the maximum energy released in nuclear reactions
      in stars, which is only about 0.7% of the rest-mass energy.
      
-     Thus, an a large scale, the most remarkable feature of the universe is its lack of distinguishing features. The assertion that 
+     Thus, on a large scale, the most remarkable feature of the universe is its lack of distinguishing features. The assertion that 
      all positions in the universe are essentially  equivalent, except for local irregularities, is know as the 
      em(Cosmological Principle).
      
@@ -1749,9 +1812,6 @@ Fock, V. {
      ...the very notion of a "principle of relativity" becomes well defined only when a definite class of frames of reference has been 
      singled out. In the usual theory of relativity this class is that of inertial systems.
      
-     It is clear that a principle of relativity implies a covariance of equations, but the converse is not true: covariance of differential 
-     equations is possible also when no principle of relativity is satisfied.
-     
      But light possesses energy and by the law of proportionality of mass and energy all energy is indissolubly connected with mass. Therefore 
      light must possess mass. On the other hand, any mass located in a gravitational field must experience the action of that field and in
      general its motion will therefore not be rectilinear.
@@ -1765,7 +1825,7 @@ Fock, V. {
 }
 
 Fokker, A. D. {
-  Albert Einstein, Inventor of Chronogeometry (1955) {
+  Einstein, Inventor of Chronogeometry (1955) {
    By a sport of history, the name relativity theory has been given to a doctrine which claims that the laws of nature are of 
    an absolute invariant character and that the formulation of these laws should preserve their invariancy in spite of any transformation 
    whatever of the coordinates used in the formalism. A great deal of misunderstanding and irrelevant discussion might have been 
@@ -1870,7 +1930,7 @@ Schutz, Bernard {
    It is important to realize that an 'observer' is in fact a huge information-gathering system, not simply one man with binoculars.
    
    One can envision this coordinate system, rather fancifully, as a lattice of rigid rods filling space, with a clock at every 
-   intersection of the rods. [No rigid objects allowed in SR.]
+   intersection of the rods.
    
    # page 8-10: good pictures
    
@@ -1889,7 +1949,7 @@ Schutz, Bernard {
    ...there are of course an infinity of freely falling frames at any point. They differ in their velocities and in the orientation of their
    spatial axes, but they all accelerate relative to Earth at the same rate.
    
-   Since em(any) nonuniformity is, in principle, detectable, a frame can only be regarded mathematically is inertial in a vanishingly 
+   Since em(any) nonuniformity is, in principle, detectable, a frame can only be regarded mathematically as inertial in a vanishingly 
    small region.
    
    Einstein's important advance was to see the similarity between Riemannian spaces and gravitational physics. He identified the 
@@ -1916,78 +1976,20 @@ Schutz, Bernard {
    in the opposite sense to the hole's!
    
    The Kerr metric has less symmetry than the Schwarzschild metric, so it might be expected that particle orbits would have fewer 
-   conserved quantities and therefor be harder to calculate. This is, quite remarkably, false: even orbits out of the equator have three
+   conserved quantities and therefore be harder to calculate. This is, quite remarkably, false: even orbits out of the equator have three
    conserved quantities: energy, angular momentum, and a difficult-to-interpret quantity associated with the theta motion. 
    The same remarkable property carries over to the wave equations that govern electromagnetic fields and gravitational waves in the 
    Kerr metric: these equations separate completely in certain coordinate systems.  
  }
 }
 
-Synge, J. L. {
-  Relativity: The Special Theory (1955) {
-    To understand a subject, one must tear it apart and reconstruct it in a form intellectually satisfying to oneself, and that (in 
-    view of the differences between individual minds) is likely to be different from the original form.
-    
-    Axioms, as we now realise, are not the self-evident truths they were long supposed to be, but rather the rules of a game, the 
-    pieces of which are elements or concepts which remain and must ever remain undefined because there is nothing in terms of 
-    which to define them.
-    
-    Let us now get to work. We start with a tabula rasa, a clean sheet, a mind in a state of intellectual nudity.
-    
-    For my own part (and this is a matter involving one's personal mode of thought) relativity without space-time diagrams -relativity 
-    embedded in formulae which are to be interpreted for physics solely in terms of modified Newtonian imagery - such relativity is 
-    as dull and confusing as an attempt to contemplate the five regular solids without using three-dimensional spatial intuition.
-    Intuition about four-dimensional space-time is difficult as sometimes deceptive on account of false Euclidean analogies.
-    
-    These transformations are basic in the special theory of relativity, which might almost be called "the theory of the Lorentz transformations."
-    
-    The first approach (axes fixed and events in space-time changed under the transformation) has been used extensively by E. Cartan and 
-    his school. The second approach (events fixed and coordinates changed) is that of the Princeton school of tensor calculus (Eisenhart 
-    and Veblen). 
-    
-    The results we are going to establish seem very queer to most people at first sight. That is because it is so hard for us, reared on the
-    absolute time of Newton, to break away from that concept and recognise (as we must in relativity) that 
-    em(there is no absolute simultaneity).
-    
-    ...on the whole [a space-time diagram's] chief function is as a source of suggestion and a rough guide to precise formal calculations.
-  }
-  Relativity: The General Theory (1960){
-    But it seems to me that the spirit of this book is best described by the word em(irony), used the sense of ... Socrates, and that sense 
-    is not easy to explain.... The lust for calculation must be tempered by periods of inaction, in which the mechanism is completely 
-    unscrewed and then put together again.... It would perhaps seem that irony of this sort belongs to evaluation rather than to 
-    creation, but in the whole history of science there is no greater example of irony than when Einstein said he did not know what 
-    absolute time was, a thing which everyone knew.
-    
-    To the ironical mind there is little distinction between the mundane and the exalted, and that is no doubt why Socrates had to drink 
-    the hemlock cup.
-    
-    It is to support Minkowski's way of looking at relativity that I find myself pursuing the hard path of the missionary. When, in a 
-    relativistic discussion, I try to make things clearer by a space-time diagram, the other participants look at it with polite 
-    detachment and, after a pause of embarrassment as if some childish indecency has been exhibited, resume the debate on their own terms.
-    Perphaps they speak of the Principle of Equivalence. If so, it is my turn to have a blank mind, for I have never been able to 
-    understand this Principle....Does it mean that the effects of a gravitational field are indistinguishable from the effects of an 
-    observer's acceleration? If so, it is false. In Einstein's theory, either there is a gravitational field or there is none, according 
-    as the Riemann tensor does or does not vanish. This is an absolute property; it has nothing to do with any observer's world-line....The 
-    Principle of Equivalence performed the essential office of midwife at the birth of general relativity, but, as Einstein remarked, the 
-    infant would never have got beyond its long-clothes had it not been for Minkowski's concept. I suggest that the midwife be now buried
-    with appropriate honours and the facts of absolute space-time faced.
-    
-    In some respects it is unimportant that the metric form of space-time is indefinite. The fact does not obtrude itself in calculating
-    the Riemann tensor, for example. But in other respects it is fundamental, and it is most unwise to mislead students of relativity by 
-    writing down, as a definition of the metric of flat space-time, an equation [using ds-squared]. This is an undigested heritage from 
-    positive-definite days. [These expressions imply that] ds is real for some displacements and imaginary for others. No serious worker 
-    in relativity will be confused by this, for he recognizes [such expressions for ds-squared] as a sort of physicist's slang. But why
-    perpetuate such nonsense? What we are concerned with is a quadratic form [phi, not ds-squared]... and [we take the absolute value
-    of phi before taking the square root], always real. 
-  }
-}
 
 Pauli, W. {
   Theory of Relativity (1921) {
     ...the argument has been put forward that it is only an "apparent" contraction, in other words, that it is only when it can be 
     simulated by our space-time measurements....But we do not consider such a point of view as appropriate, and in any case the Lorentz 
     contraction is in principle observable....It therefore follows that the Lorentz contraction is not a property of a single measuring
-    rad taken by itself, but is a reciprocal relation between two such rods moving relatively to each other, and this relation is in 
+    rod taken by itself, but is a reciprocal relation between two such rods moving relatively to each other, and this relation is in 
     principle observable.
     
     While this consequence of the Lorentz transformation [time dilation] was already implicitly contained in Lorentz's and Poincaré's 
@@ -2042,12 +2044,12 @@ Resnick, Robert {
    anything else often encounter difficulties. 
    
    Similarly, we often refer to "an observer". The meaning of this term also is quite definite, but it can 
-   be misinterpreted. em(An observer is really an infinite set of recording clocks distributed throughout space, at rest and synchronized with respect to 
-   one another).... Measurements thus recorded throughout space-time (we might call them local measurements) are then available to be picked up and 
+   be misinterpreted. An observer is really an infinite set of recording clocks distributed throughout space, at rest and synchronized with respect to 
+   one another.... Measurements thus recorded throughout space-time (we might call them local measurements) are then available to be picked up and 
    analyzed by an experimenter. Thus, the observer can also be thought of as the experimenter who collects the measurements made in this way.
    
-   It is interesting and instructive to note that there em(are) speeds in excess of c. Although matter or energy (i.e., signals) cannot have speeds greater 
-   than c, certain kinematical processes em(can) have super-light speeds. For example, the succession of points of intersection of the blades of giant scissors, 
+   It is interesting and instructive to note that there are speeds in excess of c. Although matter or energy (i.e., signals) cannot have speeds greater 
+   than c, certain kinematical processes can have super-light speeds. For example, the succession of points of intersection of the blades of giant scissors, 
    as the scissors are rapidly closed, may be generated at a speed greater than c. Here geometrical points are involved, the motion being an illusion, whereas 
    the material objects involved (atoms in the scissors blades, e.g.) always move at speeds less than c. Other similar examples are the succession of points 
    on a fluorescent screen as an electron beam sweeps across the screen, or the light of a searchlight beam sweeping across the cloud cover in the sky.
@@ -2056,7 +2058,7 @@ Resnick, Robert {
    It is instructive to note that the transverse Doppler effect has a simple time-dilation interpretation. The transverse Doppler effect is another 
    physical example confirming the relativistic time dilation.
    
-   Viewed in this way, the speed of electromagnetic waves in vacuum assumes a role wider that the travel rate of a particular physical entity. 
+   Viewed in this way, the speed of electromagnetic waves in vacuum assumes a role wider than the travel rate of a particular physical entity. 
    It becomes instead a limiting speed for the motion of anything in nature.
    
    The theory of relativity could have been called, instead, the theory of absolutism with some justification.
@@ -2108,7 +2110,7 @@ Rindler, W. {
     relative to a given frame it is real in every possible sense. 
     
     If an em(ideal) clock moves em(non-uniformly) through an inertial frame, we shall assume that acceleration as such has no effect on the rate of the 
-    clock, em(i.e) that its instantaneous rate depends only on its instantaneous speed em(v) in accordance with the [formula for time-dilation].
+    clock, i.e. that its instantaneous rate depends only on its instantaneous speed em(v) in accordance with the [formula for time-dilation].
     This we shall call the clock hypothesis. Alternatively it can be regarded as the definition of an ideal clock.
     
     Care must be taken, however, not to regard Minkowski's world as a straightforward generalization of ordinary Euclidean 3-space to 
@@ -2151,7 +2153,7 @@ Rindler, W. {
   
   
   Mon Not Roy Ast Soc, 116, 662 (1956) { 
-    An event-horizon [or a visual horizon, according to Wald], for a given fundamental observer A, is a (hyper-)surface in space-time which divides all events into two
+    An event-horizon [or a visual horizon, according to Wald], for a given fundamental observer A, is a (hyper) surface in space-time which divides all events into two
     non-empty classes: those that have been, are, or will be observable by A, and those
     that are forever outside A's possible powers of observation.
     
@@ -2167,7 +2169,7 @@ Jammer, Max {
     With prophetic vision Riemann wrote: "The basis of metrical determination must be sought outside the manifold in the binding forces
     which act on it."
     
-    Moreover, already in 1870 Clifford saw in Riemannian's conception of space the possibility for a fusion of geometry with physics...Clifford
+    Moreover, already in 1870 Clifford saw in Riemann's conception of space the possibility for a fusion of geometry with physics...Clifford
     conceived matter and its motion as a manifestation of the varying curvature.
     
     But marching along with truth is error.
@@ -2177,7 +2179,7 @@ Jammer, Max {
 Moller, C. {
   The Theory of Relativity (1952) {
     However, in a textbook of today I think it is useful to stress again the fundamental physical difference between space and time,
-    which was somewhat concealed by the purely form four-dimensional representation.
+    which was somewhat concealed by the purely formal four-dimensional representation.
     
     # he puts emphasis on 3-vectors; his 4-vectors have ict 
     
@@ -2326,7 +2328,7 @@ Misner/Thorne/Wheeler {
   Gravitation (1972) {
     Physics is simple only when viewed locally: that is Einstein's great lesson.
     
-    Space acts on matter, telling how to move. In turn, matter reacts back on space, telling it how to curve.
+    Space acts on matter, telling it how to move. In turn, matter reacts back on space, telling it how to curve.
     
     In christening events with coordinates, one demands smoothness but forgoes every thought of mensuration.
     
@@ -2341,7 +2343,7 @@ Misner/Thorne/Wheeler {
     
     To look at local physics, however, means to compare one geodesic of one test particle with geodesics of other test particles 
     traveling (1) nearby with (2) nearly the same directions and (3) nearly the same speeds. Then one can "look at the separation 
-    between thes nearby test particles and from the second time-rate of change of these separations and the 'equations of 
+    between the nearby test particles and from the second time-rate of change of these separations and the 'equations of 
     geodesic deviation' read out the curvature of spacetime."
     
     More generally, a certain piece of the Riemann tensor, called the em(Einstein tensor) and denoted ... G, is always generated directly by the 
@@ -2373,11 +2375,11 @@ Misner/Thorne/Wheeler {
     Thus the [uniformly accelerated] observer will attain relativistic velocities after maintaining this acceleration for something like 
     one year of his own proper time. He can outrun a photon if he has a head start on it of one light-year or more.
     
-    Einstein (1908, 1911) elevated the idea of the universality of gravitational interactions to the status of a fundamental 
-    em(principle of equivalence, that all effects of a uniform gravitational field are identical to the effects of a uniform acceleration of the 
-    coordinate system.)
+    Einstein elevated the idea of the universality of gravitational interactions to the status of a fundamental 
+    principle of equivalence, that all effects of a uniform gravitational field are identical to the effects of a uniform acceleration of the 
+    coordinate system.
     
-    This nonmeshing of local Lorentz frames, like the nonmeshing of local Cartesion coordinates on a curved 2-surface, is a clear manifestation of 
+    This nonmeshing of local Lorentz frames, like the nonmeshing of local Cartesian coordinates on a curved 2-surface, is a clear manifestation of 
     spacetime curvature.
     
     Gravitation is a manifestation of spacetime curvature, and that curvature shows up in the deviation of one geodesic from a nearby geodesic.
@@ -2388,20 +2390,20 @@ Misner/Thorne/Wheeler {
     
     But full power this will be only if it can be exercised in three ways: in pictures, in abstract notation, and in component notation.
     
-    Each local geometric object official place of residence (event P); it can interact with other objects residing there (tensor algebra); but it 
+    Each local geometric object has its own official place of residence (event P); it can interact with other objects residing there (tensor algebra); but it 
     cannot interact with any object at another event Q, until it has been carefully transported from P to Q.
     
     The differentiability of a manifold (i.e., the possibility of defining differentiable functions on it ) permits one to introduce coordinate
     systems locally, if not globally, and also curves, tangent spaces, tangent vectors, 1-forms and tensors, just as is done for spacetime.
-    em(But) the mere fact that a manifold is differentiable does not that such concepts such as geodesics, parallel transport, curvature, metric, 
+    But the mere fact that a manifold is differentiable does not that such concepts such as geodesics, parallel transport, curvature, metric, 
     or length exist in it. These are additional layers of structure possessed by some manifolds, but not by all. Roughly speaking, every 
     manifold has smoothness properties and topology, but without additional structure it is shapeless and sizeless.
-    That branch of geometry which adds geodesics, parallel transport, and curvature (shape) to a manifold is called em(affine geometry); that 
-    branch which adds a metric is called em(Riemannian geometry).    
+    That branch of geometry which adds geodesics, parallel transport, and curvature (shape) to a manifold is called affine geometry; that 
+    branch which adds a metric is called Riemannian geometry.    
     
     Notice that the word "maximum" in [the integral for proper time along a history] has been replaced by "extremum"... When [events] A and B 
     are widely separated, they may be connected by several geodesics with differing lapses of proper time. Each timelike geodesic 
-    extremizes [proper time] with respect to nearby deformations of itself, but the extremum need not be a maximim. When several distinct 
+    extremizes [proper time] with respect to nearby deformations of itself, but the extremum need not be a maximum. When several distinct 
     geodesics connect two events, the typical one is not a local maximum ("mountain peak") but a saddle point ("mountain pass")...
      
     
@@ -2422,7 +2424,7 @@ Misner/Thorne/Wheeler {
 
 Golstein, Herbert {
   Classical Mechanics (1980) {
-    Like Moliere's hero who was delighted to learn he had been talking prose all his life without knowing it, we have really been 
+    Like Molière's hero who was delighted to learn he had been talking prose all his life without knowing it, we have really been 
     talking about the restricted Lorentz transformation from the beginning of this section without realizing it.
     
     A restricted Lorentz transformation that describes the relation between two systems with parallel axes moving uniformly relatively to each 
@@ -2431,7 +2433,7 @@ Golstein, Herbert {
     In their massive treatise on gravity, Misner, Thorne, and Wheeler call for the extinction of the complex Minkowski space: "One sometime 
     participant in special relativity will have to be put to the sword: 'x4=ict'". It is claimed that the use of a Cartesian space hides
     the basic indefinite nature of the metric - that the square of the magnitude of vectors can be positive, zero, or negative. Further, 
-    the artifice of a complex Cartesian space is feasible only in special relativity; in the theory of general relativity teh space is 
+    the artifice of a complex Cartesian space is feasible only in special relativity; in the theory of general relativity the space is 
     curved and the use of a non-Cartesian metric tensor is inescapable. It is also pointed out that in quantum mechanics where wave functions
     or state vectors are complex, the use of an imaginary coordinate will complicate the operation of complex conjugation....It is difficult 
     to oppose such distinguished authority. Nonetheless, we shall here make a stand against the euthanasia of Minkowski space.
@@ -2487,7 +2489,7 @@ Stephani, Hans {
     Predictions about the numerical value of the velocity of light have little value in general relativity; the only essential thing is that
     light propagates along null geodesics...
     
-    It non-linear theories the situation is more complicated, because the singularity need not occur at the position of the source.
+    In non-linear theories the situation is more complicated, because the singularity need not occur at the position of the source.
     
     Therefore if the metric is singular at a point, one investigates whether this singularity can be removed by introducing a new 
     coordinate system. Or, appealing more to physical intuition, one asks whether a freely falling observer can reach this point and can
@@ -2579,7 +2581,7 @@ Schutz, Bernard {
    the detector will respond with exactly the same combination of motions: detectors simply mimic the tidal distortions of the source.
    
    The frequency of a gravitational wave is determined by the typical time-scale for the things to happen in its source.
-   The upper bound an expected frequencies is about 10,000 Hz, because it is difficult to get large astronomical bodies, with masses comparable 
+   The upper bound on expected frequencies is about 10,000 Hz, because it is difficult to get large astronomical bodies, with masses comparable 
    to the Sun or larger, to do anything on time-scales shorter than a tenth of a millisecond or so....There is no lower bound, and in fact 
    scientists are planning detectors that reach down below [1 millihertz].
    
@@ -2594,7 +2596,7 @@ Schutz, Bernard {
    
    ...in this chapter we will concentrate on understanding simple lenses. We will discover the peculiar nature of the gravitational lens, 
    divergent in some regions and convergent in others; we will see why lenses magnify objects and make them brighter; we will see why there are
-   in principle always an odd number of images in any lensed object, although not all of them will necessarily be bright enought to be detected; 
+   in principle always an odd number of images in any lensed object, although not all of them will necessarily be bright enough to be detected; 
    and we will see how lensing can be used to measure the mass of the lens itself, and, possibly, the expansion rate of the Universe.
    
    We have shown that the surface brightness of an object is unchanged by the lens....The star occupies a larger angular size on the sky. Since
@@ -2735,7 +2737,7 @@ Ellis, G. F. R {
     is no general relativity version of the Newtonian idea of a point particle.
     None of this is obvious. The global topology is not optional; it follows from the way the Einstein equations for 
     this vacuum curve spacetime. And the nature of this solution emphasizes why one should always try to determine exact 
-    properties of solutions in general relativity: the global prop¬ erties of the linearised form of the Schwarzschild solution 
+    properties of solutions in general relativity: the global properties of the linearised form of the Schwarzschild solution 
     (which does not exactly satisfy the field equations) will be radically different.
     
     However this diagram is misleading in some ways: it suggests that the central singularity is a timelike world line, which is not the case; 
@@ -2884,7 +2886,7 @@ Peebles, P. J. E. {
      
      The conclusion is that we can choose the coordinate labels so the ordinary line element of special relativity applies in the
      neighborhood of a chosen point, with the metric tensor equal to the Minkowski form, and the first derivatives of the metric 
-     tensor equal to zero. We will see in the next section that the represents the locally orthogonal coordinate system that a freely
+     tensor equal to zero. We will see in the next section that this represents the locally orthogonal coordinate system that a freely
      falling observer would set up using proper physical rods and clocks. If all the second derivatives of the metric tensor cannot 
      be eliminated, they describe the tidal field that causes the relative gravitational acceleration of neighboring freely moving 
      test particles, and one says spacetime is curved.
@@ -2923,7 +2925,7 @@ Wheeler, John {
    Two ideas are central to Einstein's conception of gravity. The first is free-float. The second is spacetime curvature.
    
    em(General relativity) is the name he gave to the later idea that gravitational fall is really free float. Today it is more natural to 
-   describe his teaching a Einstein's geometric theory of gravity.
+   describe his teaching as Einstein's geometric theory of gravity.
    
    That innocent but ambiguous term [observer] has created endless confusion for more than half a century. It fails to distinguish between 
    two totally different concepts of observer. One is right. The other is wrong. The camera epitomizes the wrong idea - wrong because it is 
@@ -2967,12 +2969,12 @@ Wheeler, John {
    three space dimensions; the volume is enlarged by a factor of 8. At that distance, spacetime bending will be diluted to one-eigth of what it is
    at the Earth's surface. More generally, and in keeping with this reasoning, the curvature falls off inversely as the cube of the distance.
    
-   Of Kepler Galileo even said, "More than other people he was a person if independent genius... [but he] later pricked up his ears and became 
+   Of Kepler Galileo even said, "More than other people he was a person of independent genius... [but he] later pricked up his ears and became 
    interested in the action of the moon on the water, and in other occult phenomena, and similar childishness."
    
    Words promote insight.
    
-   Like the time-like interval separating the positions of two events in spacetime, the length of the momenergy arrow is invariant, that is , 
+   Like the time-like interval separating the positions of two events in spacetime, the length of the momenergy arrow is invariant, that is, 
    independent of the reference frame. This length measures the object's mass.
    
    However, the increase in the internal energy of agitation [heat] - and therefore in mass - is too small even for today's best instruments to 
@@ -3001,7 +3003,7 @@ Wheeler, John {
    
    The shape of the Schwarzschild curved space geometry follows a remarably simple curve, discoverable by astonishingly simple reasoning.
    It is generated by drawing a em(parabola) about its em(directrix), another name for the axis of revolution. By this means is created a 
-   curved sheet called a parabaloid.
+   curved sheet called a paraboloid.
    
    Aging incurred between the stone's takeoff and its return evidently registers the competition between two influences: first, the age 
    lengthening effect of being up there and, second, the age shortening effect of traveling there and back.
@@ -3012,7 +3014,7 @@ Wheeler, John {
    The curve does not close.
    
    Second, however far this traveling region of spacetime curvature has progressed, there the measure of the deformation it makes in spacetime 
-   geometry has fallen of in proportion, not to the inverse square of the distance of travel away from the source, but to the em(inverse first power)
+   geometry has fallen off in proportion, not to the inverse square of the distance of travel away from the source, but to the em(inverse first power)
    of this distance.
    
    Then I encountered in J. Arthur Thompson the statement that the electric force in an electromagnetic wave points, not straight out from the center 
@@ -3038,7 +3040,7 @@ Wheeler, John {
    
    Angular momentum, for example, can take on only one or another integer multiple of a basic unit of angular momentum. 
    ...In geometric units, where we express both mass and time in meters, this elementary quantum of angular momentum turns out to have the dimension 
-   of an area...(the square of the so-called Planck length). This tiny are is an em(elementary quantum of area)....[The entropy of a black hole], a 
+   of an area...(the square of the so-called Planck length). This tiny area is an elementary quantum of area....[The entropy of a black hole], a 
    pure number, the so-called Bekenstein number, is exactly the surface area of the horizon of the black hole, divided by 4 times the elementary
    quantum of area.
    
@@ -3123,7 +3125,7 @@ Verlinde, Eric {
     seriously the theoretical indications coming from string theory and black hole physics
     that spacetime and gravity are emergent. We believe this approach and the results we
     obtained tell us that the phenomena associated with dark matter are an unavoidable
-    and logical consequence of the emergent nature of space time itself. The net effect
+    and logical consequence of the emergent nature of spacetime itself. The net effect
     should be that in our conventional framework one has to add a dark component to
     the stress energy tensor, which behaves very much like the cold dark matter needed
     to explain structure formation, but which in its true origin is an intrinsic property
