@@ -3265,7 +3265,7 @@ Carroll, Sean {
     inertial (or "freely-falling") trajectories, on which unaccelerated particles travel - where unaccelerated means 
     "subject only to gravity".
     
-    The WEP can therefore be stated as follows: The motion of freely-falling particles are the same in a gravitational field and a 
+    The WEP can therefore be stated as follows: The [motions] of freely-falling particles are the same in a gravitational field and a 
     uniformly accelerated frame, in small enough regions of spacetime.
     
     This reasonable extrapolation became what is now known as the Einstein Equivalence Principle, or EEP: In small enough regions of 
@@ -3331,7 +3331,7 @@ Carroll, Sean {
     
     Often the case is that between two points on a manifold there is more than one geodesic.
     
-    Geodesics provide a convenient way of mapping the tangent space em(Tp) of a point em(p) to a region of the manifeld that contains em(p),
+    Geodesics provide a convenient way of mapping the tangent space em(Tp) of a point em(p) to a region of the manifold that contains em(p),
     called the exponential map. This map in turn defines a set of coordinates for this region that are automatically the locally inertial 
     coordinates...
     
@@ -3356,11 +3356,11 @@ Carroll, Sean {
     is called de Sitter space, while that with negative curvature is imaginatively labeled anti-de Sitter space. 
       
     When people say that GR is diffeomorphism invariant, more likely than not they have one of two (closely related) concepts in mind: 
-    the theory is free of "prior geometry", and there is no em(preferred) coordinate system for spacetime.
+    the theory is free of "prior geometry", and there is no preferred coordinate system for spacetime.
     
     Furthermore, the energy-momentum tensor will generally involve the metric as well.
     
-    The nonlinearity if general relativity is worth a remark...In GR the gravitational field couples to itself...The nonlinearity of 
+    The nonlinearity of general relativity is worth a remark...In GR the gravitational field couples to itself...The nonlinearity of 
     Einstein's equation is a reflection of the back-reaction of gravity on itself.
     
     There is nothing unique about [the nonlinearity] of gravity; it is shared by most gauge theories, such as quantum chromodynamics, the 
