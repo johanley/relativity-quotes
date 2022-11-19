@@ -619,7 +619,7 @@ Hawking and Ellis {
      
      ...one would be much more ready to believe that space-time satisfies what we shall call the chronology condition: namely, that there are no closed
      timelike curves. One must however bear in mind the possibility that there might be points (maybe where the density or curvature was very high)
-     of space-time at which this condition does not hold. The set of all such points will be called the em(chronology violating) set of M...
+     of space-time at which this condition does not hold. The set of all such points will be called the chronology violating set of M...
      
      If M is compact, the chronology-violating set of M is non-empty....From this result it would seem reasonable to assume that space-time is 
      non-compact. Another argument against compactness is that any compact, four-dimensional manifold on which there is a Lorentz metric cannot 
@@ -666,8 +666,8 @@ Hawking and Ellis {
      even more objectionable feature than infinite curvature and so it seems appropriate to regard such a space as singular....one should probably 
      also regard a null geodesically incomplete space-time as singular....    
      As nothing moves on spacelike curves, the significance of spacelike geodesic incompleteness is not so clear.  
-     We shall therefore adopt the view that em(timelike and null geodesic completeness are minimum conditions for space-time to be considered 
-     singularity-free). Therefore if a space-time is timelike or null geodesically complete, we shall say that it has a singularity.
+     We shall therefore adopt the view that timelike and null geodesic completeness are minimum conditions for space-time to be considered 
+     singularity-free. Therefore if a space-time is timelike or null geodesically incomplete, we shall say that it has a singularity.
      
      However, the class of timelike and/or null incomplete space-times does not include all those one might wish to consider as singular in some sense.
      For example Geroch (1968b) has constructed a space-time which is geodesically complete but which contains an inextendible timelike curve 
@@ -1310,7 +1310,7 @@ Way and Nussbaumer {
 Synge, J. L. {
  Talking About Relativity (1970) {
    ... of all forms of communication, [communication of scientific matters] is the most exciting when it succeeds, and the most depressing 
-   when it fails. But it does not take place through the formal channels precscribed for it, at least not nearly to the extent that many 
+   when it fails. But it does not take place through the formal channels prescribed for it, at least not nearly to the extent that many 
    people suppose.
    
    One of course does not decry the elaborate educational systems existent in all civilised countries. They exist for this very purpose,
@@ -1396,18 +1396,12 @@ Synge, J. L. {
     ...on the whole [a space-time diagram's] chief function is as a source of suggestion and a rough guide to precise formal calculations.
   }
   Relativity: The General Theory (1960){
-    But it seems to me that the spirit of this book is best described by the word em(irony), used the sense of ... Socrates, and that sense 
+    But it seems to me that the spirit of this book is best described by the word em(irony), used in the sense of ... Socrates, and that sense 
     is not easy to explain.... The lust for calculation must be tempered by periods of inaction, in which the mechanism is completely 
     unscrewed and then put together again.... It would perhaps seem that irony of this sort belongs to evaluation rather than to 
     creation, but in the whole history of science there is no greater example of irony than when Einstein said he did not know what 
     absolute time was, a thing which everyone knew.
 
-    I have never been able to understand this principle... Does it mean that the effects of a gravitational field are indistinguishable 
-    from the effects of an observer's acceleration? If so, it is false. In Einstein's theory, either there is a gravitational field or 
-    there is none, according as the Riemann tensor does or does not vanish. This is an absolute property; it has nothing to do with 
-    an observer's worldline... The Principle of Equivalence performed the essential office of midwife at the birth of general 
-    relativity... I suggest that the midwife be now buried with appropriate honours and the facts of absolute spacetime be faced. 
-    
     To the ironical mind there is little distinction between the mundane and the exalted, and that is no doubt why Socrates had to drink 
     the hemlock cup.
     
@@ -1459,7 +1453,7 @@ Ohanian and Ruffini {
      experience inside their spacecraft, then the picture of tidal forces is much more relevant than that of ordinary force.
      
      We can therefore use the angular acceleration to detect the tidal force. If the [non-spherical] body is originally spinning, then the 
-     tidal force will cause a precession of the spin. A well-know example is the equinoctial precession of the spin of the Earth, which 
+     tidal force will cause a precession of the spin. A well-known example is the equinoctial precession of the spin of the Earth, which 
      is caused by the lunar and solar tidal forces acting on the equatorial bulge of the Earth.
      
      From this survey of actual experiments and em(Gedanken)-experiments, we see that there exist several methods for measuring the tidal 
@@ -1471,7 +1465,7 @@ Ohanian and Ruffini {
      rest in a gravitational field and an accelerated reference frame far away from all gravitational fields. Gravitational effects are 
      em(not equivalent) to the effects arising from an observer's acceleration.
      
-     In order to avoid confusion, we will base our further development of gravitional theory on the very precise and unambiguous 
+     In order to avoid confusion, we will base our further development of gravitational theory on the very precise and unambiguous 
      equality mi=mg. This equality is necessary and, to a large extent, sufficient for the construction of the relativistic theory.
      
      Unfortunately, because the velocity of light is so large, everyday experience leads us to acquire a certain number of misconceptions
@@ -1546,7 +1540,7 @@ Ohanian and Ruffini {
      distances between points in spacetime.
      
      However, such "lenses" do not have the optical properties of genuine lenses. The magnitude of the deflection angle of a ray 
-     passing through a genuine lens increases in direct proportion to the impact paramater... But the magnitude of the deflection
+     passing through a genuine lens increases in direct proportion to the impact parameter... But the magnitude of the deflection
      angle of a ray passing through the gravitational field of a star em(decreases) with impact parameter.... Hence such a 
      gravitational lens has no well-defined focal length, and it cannot produce genuine images, real or virtual.
      
@@ -1742,9 +1736,6 @@ Fock, V. {
      principle of relativity" should not be admitted. This usage is inconvenient because it not only leads to misunderstanding, but 
      also reflects an incorrect understanding of the theory itself.
      
-     In addition, it follows that the very notion of a "principle of relativity" becomes well defined only when a definite class of 
-     reference frames has been singled out. In the usual theory of relativity this class is that of inertial systems.
-     
      Since the greatest possible uniformity is expressed by Lorentz transformations there cannot be a more general principle of 
      relativity than that discussed in ordinary relativity theory. All the more, there cannot be a general principle of relativity, as 
      a physical principle, which would hold with respect to arbitrary frames of reference.
@@ -1884,7 +1875,7 @@ French, A. P. {
     statements about the space-time coordinates of a particular event as established by measurement in frame S. If one really means to 
     talk about looking or seeing, then an extra feature - the transmission of information from one point to another - is involved.
     
-    Here is where our intuitions cheifly play us false. There is no such thing as em(the) time. "The time" is not a metaphysical abstraction,
+    Here is where our intuitions chiefly play us false. There is no such thing as em(the) time. "The time" is not a metaphysical abstraction,
     it is the reading on a clock.
     
     We see then that a result upon which observers in all frames agree - what fraction of a group of unstable particles survives between 
@@ -1925,7 +1916,7 @@ Bondi, H. {
 
 Schutz, Bernard {
  A First Course in General Relativity (1985) {
-   One can only wish that an earlier generation of physicists had chosen more appropriate names for theses theories!
+   One can only wish that an earlier generation of physicists had chosen more appropriate names for these theories!
    
    It is important to realize that an 'observer' is in fact a huge information-gathering system, not simply one man with binoculars.
    
@@ -2023,7 +2014,7 @@ Pauli, W. {
 
 Mendelson, Bert {
   Topology {
-    ...the [triangle] inequality d(x,z)≤d(x,y)+d(y,z) may be thought of as asserting the transitivity of [the] closeness [relationship]; 
+    ...the [triangle] inequality...may be thought of as asserting the transitivity of [the] closeness [relationship]; 
     that is, if x is close to y and y is close to z, then z is close to x.
   }
 } 
@@ -2338,7 +2329,7 @@ Misner/Thorne/Wheeler {
     
     To avoid distraction by the nonlocal element (the Earth) in the situation, conduct the study in the interior of a spaceship, also in 
     orbit about the Earth. But this region has already been counted as a local inertial frame! What gravitational field is to be seen there? None.
-    Relative to the spaceship and therefore relative to each other, the two test particales move in a straight line with uniform
+    Relative to the spaceship and therefore relative to each other, the two test particles move in a straight line with uniform
     velocity, to the precision of measurement that is contemplated. [Expressed in a misleading way.]
     
     To look at local physics, however, means to compare one geodesic of one test particle with geodesics of other test particles 
@@ -2361,7 +2352,7 @@ Misner/Thorne/Wheeler {
     
     This, in fact, is the mathematical definition of a 1-form: em(a 1-form is a linear, real valued function of vectors...)
     
-    Here and elsewhere in science, as stressed not least by Henri Poincaré, that view is out af date which used to say, "Define your terms before you proceed."
+    Here and elsewhere in science, as stressed not least by Henri Poincaré, that view is out of date which used to say, "Define your terms before you proceed."
     All the laws and theories of physics, including the Lorentz force law, have this deep and subtle character, that they both define the concepts they 
     use .... and make statements about these concepts.
     
@@ -2395,7 +2386,7 @@ Misner/Thorne/Wheeler {
     
     The differentiability of a manifold (i.e., the possibility of defining differentiable functions on it ) permits one to introduce coordinate
     systems locally, if not globally, and also curves, tangent spaces, tangent vectors, 1-forms and tensors, just as is done for spacetime.
-    But the mere fact that a manifold is differentiable does not that such concepts such as geodesics, parallel transport, curvature, metric, 
+    But the mere fact that a manifold is differentiable does mean not that such concepts such as geodesics, parallel transport, curvature, metric, 
     or length exist in it. These are additional layers of structure possessed by some manifolds, but not by all. Roughly speaking, every 
     manifold has smoothness properties and topology, but without additional structure it is shapeless and sizeless.
     That branch of geometry which adds geodesics, parallel transport, and curvature (shape) to a manifold is called affine geometry; that 
@@ -2455,7 +2446,7 @@ Stephani, Hans {
     or (b) the parallel transport of vectors is independent of path; or (c) covariant derivatives commute; or (d) the geodesic deviation 
     (the relative acceleration) of two arbitrary particles moving force-free vanishes.
     
-    Many criticism have been raised against this principle [of general covariance], their aim being to assert that neither is it a 
+    Many criticisms have been raised against this principle [of general covariance], their aim being to assert that neither is it a 
     em(physical) principle, nor does it guarantee the correctness of the equations thus obtained.
     
     In other words, a freely falling observer in a gravitational field cannot detect the gravitational field by physical experiments in his 
@@ -2714,7 +2705,7 @@ Ellis, G. F. R {
     a causality condition is satisfied, and suitable energy conditions are satisfied by the matter and 
     fields present...Penrose's paper proved that the occurrence of black hole singularities is not due to special symmetries, but is generic.
     
-    John Wheeler emphasized that existence of spacetime singularities - an edge to spacetime, where not just space, time, and matter 
+    John Wheeler emphasized that the existence of spacetime singularities - an edge to spacetime, where not just space, time, and matter 
     cease to exist, but even the laws of physics themselves no longer apply - is a major crisis for physics.
     This is of course a prediction of the classical theory. It is still not known if quantum gravity solves this issue or not.
     
@@ -2986,7 +2977,7 @@ Wheeler, John {
    region self-annihilate. Within a 4-D cube or block of spacetime - a region of space examined for an interval of time - momenergy is 
    automatically conserved.
    
-   The French mathematician and geometer Élie Cartan (1969-1951) used his calculus of "exterior differential forms" to derive the simple 
+   The French mathematician and geometer Élie Cartan (1869-1951) used his calculus of "exterior differential forms" to derive the simple 
    Einstein-Cartan equation from Einstein's much more complicated geometrodynamic field equation. Cartan's boundary of a boundary 
    geometric approach to Einstein's theory provides a wonderful simplicity.
    
